@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja vježba :)</title>
+    <link rel="stylesheet" type="text/css" href="stilll.css">
+    <style>
+        span {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body onload="prijava()"> <!-- Opet se vracam na ovu vjezbu-->
+    <!--<h1 class="naslov">Naslov stranice</h1>
+    <p></p>
+    <div id="novi_red" style="text-transform: uppercase;">Novi red</div>-->
+    <div class="header">
+        <ul>
+            <li> <a href="1zadatak.html">Home</a></li>
+            <li><a href="kursevi.html" target="_blank">Kursevi</a></li>
+            <li><a href="instruktori.html"> Instruktori</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="#slika">Vodi na sliku</a></li>
+        </ul>
+    </div>
+    <div class="sadržaj">
+        <ul>
+            <li><img class="slika" src="crnamacka.jpg" alt="Crna mačka"></li>
+            <li><img class="slika" src="medo.jpg" alt="medo"></li>
+            <li><img class="slika" src="zeko.jpg" alt="zeko"></li>
+            <li><img class="slika" src=“suncokret.jpg“ alt=" suncokret"></li>
+        </ul>
+    </div>
+    <div class="videi">
+        <ol>
+            <li>
+                <video height="320" width="240" controls>
+                    <source src="" type="video/mp4" />
+                    <source src="" type="video/ogg" />
+                </video>
+            </li>
+            <li>
+                <video height="320" width="240" controls>
+                    <source src="" type="video/mp4" />
+                    <source src="" type="video/ogg" />
+                </video>
+            </li>
+        </ol>
+    </div>
+    <div id="slika">
+        <p>
+            <dt>Informatika</dt>
+            <dd>Informatika je nauka koja se bavi proučavanjem, razvojem i primjenom sistema za automatsku obradu
+                podataka
+                pomoću računara. Naziv je nastao spajanjem francuskih riječi information (informacija) i automatique
+                (automatika). </dd>
+            </dl>
+            <dt>Podatak</dt>
+            <dd>Podatak je neobrađena činjenica, broj, tekst, slika ili zvuk koji sami po sebi nemaju određeno značenje.
+            </dd>
+            <dt>Informacija</dt>
+            <dd>Informacija je podatak koji je stavljen u kontekst i obrađen tako da ima značenje i upotrebnu vrijednost
+                za primaoca.</dd>
+            <dt>Znanje</dt>
+            <dd>Znanje predstavlja organizovani sistem informacija u nekoj oblasti, stečen kroz iskustvo i učenje. </dd>
+        </p>
+        <img src="informatika4.jpg" alt="informatika" style="float: right;" />.
+    </div>
+
+    <div class="footer">
+        <ol>
+            <li> <a href="nekimail@gmail.com">Email adresa</a></li>
+            <li><a href="tel:387000000">Telefonski broj</a></li>
+            <li><a href="https://www.ets.sa.edu.ba">Web stranica škole!</a></li>
+            <li><a href="https://google.com">Google</a></li>
+
+        </ol>
+        <a href="#header">Vrati se na početak</a>
+        <table>
+            <tr>  <td>1</td><td>2</td></tr>
+            <tr> <td>1</td><td>2</td><td>3</td></tr>
+             <tr>  <td>1</td><td>2</td></tr>
+
+
+        </table>
+    </div>
+
+    <span onclick="alert('Kliknuo si na span element')"> Klikni me</span>
+    <script>
+        alert("Dobro došli :))")
+        function prijava() {
+            alert('Dobro došli na stranicu za kurseve.')
+        }
+    </script>
+</body>
+
+</html>
